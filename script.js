@@ -25,6 +25,6 @@ function sendMail() {
   };
 
   emailjs
-    .send("service_tgbafls", "template_30r53ae", params)
+    .send("service_tgbafls", "template_8n9lnrq", params)
     .then(alert("Email Sent!"));
 }
