@@ -17,7 +17,7 @@ window.onscroll = () => {
 };
 
 function sendMail() {
-  let parms = {
+  let params = {
     name: document.getElementById("name").value,
     email: document.getElementById("email").value,
     mobile: document.getElementById("mobile").value,
