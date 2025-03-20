@@ -13,7 +13,7 @@
   --second-bg-color: #202020;
   --text-color: #fff;
   --second-color: #ccc;
-  --main-color: #e63c2d;
+  --main-color: #ff2100;
   --big-font: 5rem;
   --h2-font: 3rem;
   --p-font: 1.1rem;
@@ -133,7 +133,7 @@ section {
   color: var(--text-color);
   line-height: 1.1;
   margin: 0 0 8px;
-  color: #ebcd34;
+  color: #ff8400;
 }
 
 .home-text h3 {
@@ -216,7 +216,7 @@ header.sticky {
 
 .about-img {
   display: flex;
-  height: 80%;
+  height: 60%;
   justify-content: center;
 }
 
@@ -442,9 +442,10 @@ header.sticky {
 
 .contact-text p {
   color: var(--second-color);
-  font-size: var(--p-font);
+  /* font-size: var(--p-font); */
   line-height: 1.8;
   margin-bottom: 30px;
+  padding-right: 10px;
 }
 
 .list {
