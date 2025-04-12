@@ -670,6 +670,17 @@ form textarea {
   #home img {
     display: none;
   }
+  .home-text p {
+    line-height: 2.4rem;
+  }
+  .home {
+    height: 80vh;
+    background-position: 65% 75%;
+    align-items: start;
+  }
+  .slide {
+    margin-top: 3rem;
+  }
 }
 
 @media (max-width: 520px) {
@@ -689,7 +700,7 @@ form textarea {
     align-items: start;
   }
 
-  .home-text .home-p {
+  .home-text p.home-p {
     font-size: 1rem;
     margin-top: 3rem;
     line-height: 2.4;
