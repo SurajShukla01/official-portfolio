@@ -684,8 +684,15 @@ form textarea {
   }
 
   .home {
-    height: 90vh;
+    height: 80vh;
     background-position: 65% 75%;
+    align-items: start;
+  }
+
+  .home-text .home-p {
+    font-size: 1rem;
+    margin-top: 3rem;
+    line-height: 2.4;
   }
   .home .button a {
     font-size: 0.9rem;
@@ -709,6 +716,11 @@ form textarea {
   }
 
   .home-text h1 {
-    margin-top: 1.5rem;
+    margin-top: 2.5rem;
+    font-size: 4rem;
+  }
+
+  .about-text p {
+    font-size: 1rem;
   }
 }
