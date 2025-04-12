@@ -664,6 +664,12 @@ form textarea {
   .portfolio-content img {
     box-sizing: content-box;
   }
+  .home-png {
+    display: none;
+  }
+  #home img {
+    display: none;
+  }
 }
 
 @media (max-width: 520px) {
@@ -677,15 +683,9 @@ form textarea {
     display: none;
   }
 
-  .home-png {
-    display: none;
-  }
   .home {
     height: 90vh;
     background-position: 65% 75%;
-  }
-  #home img {
-    display: none;
   }
   .home .button a {
     font-size: 0.9rem;
