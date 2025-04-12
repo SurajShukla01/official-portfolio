@@ -104,6 +104,21 @@ section {
   justify-content: flex-start;
 }
 
+#home img.main {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  filter: blur(6px) brightness(0.7);
+  z-index: -50;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.home .resume {
+  margin-left: 10px;
+}
+
 .slide {
   margin-bottom: 20px;
 }
@@ -126,6 +141,18 @@ section {
   color: var(--second-color);
   font-size: 20px;
   font-weight: 500;
+}
+
+.home-png {
+  height: 100%;
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+.home-png img {
+  width: 90%;
+  filter: brightness(0.8) saturate(2) drop-shadow(34px -15px 5px black);
 }
 
 .home-text h1 {
@@ -646,17 +673,30 @@ form textarea {
     --p-font: 0.7rem;
     transition: 0.1s;
   }
+  div .png {
+    display: none;
+  }
 
+  .home-png {
+    display: none;
+  }
   .home {
     height: 90vh;
     background-position: 65% 75%;
   }
+  #home img {
+    display: none;
+  }
   .home .button a {
     font-size: 0.9rem;
   }
+  .home .resume {
+    margin-top: 8px;
+    margin-left: 0;
+  }
 
   .slide {
-    margin-top: 5rem;
+    margin-top: 1rem;
   }
 
   .slide span {
